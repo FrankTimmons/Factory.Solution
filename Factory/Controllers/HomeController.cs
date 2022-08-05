@@ -10,6 +10,5 @@ namespace Factory.Controllers
       {
         return View();
       }
-
     }
 }
