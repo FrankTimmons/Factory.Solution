@@ -58,7 +58,7 @@ namespace Factory.Controllers
       return RedirectToAction("Index");
     }
 
-    public ActionResult AddMachine(int id)
+    public ActionResult AddEngineer(int id)
     {
       var thisMachine = _db.Machines.FirstOrDefault(machine => machine.MachineId == id);
       ViewBag.EngineerId = new SelectList(_db.Engineers, "EngineerId", "Name");
@@ -67,7 +67,7 @@ namespace Factory.Controllers
     }
 
     [HttpPost]
-    public ActionResult AddMachine(Machine machine, int EngineerId)
+    public ActionResult AddEngineer(Machine machine, int EngineerId)
     {
       if (EngineerId != 0)
       {
