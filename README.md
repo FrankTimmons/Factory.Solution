@@ -93,7 +93,7 @@ Run ```$ dotnet run``` in the terminal.
 
 ---
 
-Big Thanks to Garrett Hays @ https://github.com/GarrettHays, and @ https://github.com/User8240 for amazing README formatting and instructions!
+Big Thanks to Garrett Hays @ https://github.com/GarrettHays, and Grace Kostanich @ https://github.com/User8240 for amazing README formatting and instructions!
 
 ## Known Bugs
 
